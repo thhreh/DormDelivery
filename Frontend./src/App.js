@@ -19,7 +19,7 @@ function App() {
             level={2}
             style={{ color: "white", lineHeight: "inherit", marginBottom: 0 }}
           >
-            Boiler Delivery
+            Dorm Delivery
           </Title>
           <div>{authed ? <MyCart /> : <SignupForm />}</div>
         </div>
